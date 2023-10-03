@@ -13,7 +13,7 @@ KAFKA QuickStart documentation;
 
 https://kafka.apache.org/quickstart
 
-Enough is set up for the zookeeper and kafka servers to start running.
+For starting to operate the zookeeper and kafka server, it is sufficient to have
 
 ```
 KAFKA_PATH/bin/zookeeper-server-start.sh config/zookeeper.properties
