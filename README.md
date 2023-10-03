@@ -13,6 +13,16 @@ KAFKA QuickStart documentation;
 
 https://kafka.apache.org/quickstart
 
+Enough is set up for the zookeeper and kafka servers to start running.
+
+```
+KAFKA_PATH/bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+and
+```
+KAFKA_PATH/bin/kafka-server-start.sh config/server.properties
+```
+
 ### Testing
 ```
 curl -L 'http://localhost:8080/api/v1/message' -H 'Content-Type: application/json' -d '{
